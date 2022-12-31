@@ -19,7 +19,6 @@
 # in the templates via {{ site.myvariable }}.
 
 title: élan, a simplified app studio
-email: info@elan-digital.com
 description: >- # this means to ignore newlines until "baseurl:"
   élan, a simplified app studio
 baseurl: "/" # the subpath of your site, e.g. /blog

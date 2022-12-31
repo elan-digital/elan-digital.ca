@@ -49,9 +49,12 @@
     <div class="section">
       <a href="/privacy_policy">Privacy Policy</a>
       |
-      <a href="mailto:info@elan-digital.ca">Contact</a>
+      <a href="mailto:">Contact</a>
     </div>
   </footer>
 </body>
 
+<script>
+const x=`mailto:info@${document.domain}`;document.querySelectorAll('a[href^=mailto]').forEach(el => el.setAttribute('href', x));
+</script>
 </html>
